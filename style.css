@@ -1,0 +1,62 @@
+ 
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+   
+   
+/* Generics */
+   
+body {
+  font-family: sans-serif;
+  color: white;
+  
+}
+       
+
+/* Utils */
+
+header {
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 0 5px black;
+}
+  
+
+.navbar {
+  height: 60px;
+  background-color: rgb(255,105,0);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar-menu ul {
+  list-style-type: none;
+  display: flex;
+}
+  
+.navbar-menu a{
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 3px;
+}
+  
+.navbar-logo img {
+  width: 120px;
+}
+
+.navbar-icons i {
+  margin: 0 3px;
+}
+  
