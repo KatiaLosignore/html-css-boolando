@@ -33,7 +33,7 @@ header {
   background-color: rgb(255,105,0);
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 
@@ -67,38 +67,27 @@ header {
 .row {
   display: flex;
   gap: 10px;
+  margin-bottom: 90px;
 }
 
 .col {
   min-height: 100px;
-  flex-basis: calc(100 / 3);
-  border: 2px solid black;
+  flex-basis: calc(100% / 3);
 }
-
-img {
-  display: block;
-  max-width: 100%;
-}
-
+  
 .article {
   position: relative;
 }
 
-/* .article.big {
-  background-image: url('img/3.webp');
-  background-size: cover;
-  background-position: center;
-  height: 1150px;
-} */
-
 .discount {
   color: white;
   font-weight: bold;
-  padding: 2px 5px;
+  font-size: 12px;
+  padding: 4px 7px;
   position: absolute;
   bottom: 50px;
 }
-  
+
 .bg-red {
   background-color: red;
   left: 0;
@@ -106,8 +95,121 @@ img {
   
 .bg-green {
   background-color: green;
-  left: 50px;
+  left: 45px;
 }
 
+.green-special {
+  background-color: green;
+  left: 0;
+}
+
+.bottom {
+  color: black;
+}
+
+
+.price {
+  color: red;
+  font-weight: bold;
+}
   
+.line-price {
+  text-decoration: line-through;
+}
+  
+.bottom {
+  margin-top: 5px;
+}
+
+.heart {
+  position: absolute;
+  top: 6px;
+  right: 0;
+  color:black;
+  font-size: 25px;
+  background-color: white;
+  padding: 2px 6px;
+}
+
+.heart:hover {
+  color: red;
+}
+
+.background-image {
+  background-size: cover;
+  background-position: center;
+  height: 570px;
+  max-width: 100%;
+}
+
+
+#img-1 {
+  background-image: url('img/1.webp');
+}
+
+#img-1:hover {
+  background-image: url('img/1b.webp');
+}
+  
+#img-2 {
+  background-image: url('img/2.webp');
+}
+
+#img-2:hover {
+  background-image: url('img/2b.webp');
+}
+  
+#img-3 {
+  background-image: url('img/3.webp');
+}
+
+#img-3:hover {
+  background-image: url('img/3b.webp');
+}
+
+#img-4 {
+  background-image: url('img/4.webp');
+}
+
+#img-4:hover {
+  background-image: url('img/4b.webp');
+}
+
+#img-5 {
+  background-image: url('img/5.webp');
+}
+
+#img-5:hover {
+  background-image: url('img/5b.webp')
+}
+
+#img-6 {
+  background-image: url('img/6.webp');
+}
+
+#img-6:hover {
+  background-image: url('img/6b.webp');
+}
+
+
+footer {
+  padding: 40px;
+  background-color: #23272a;
+  color: white;
+}
+
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+
+
+
+
+
+
   
